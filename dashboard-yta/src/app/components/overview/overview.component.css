@@ -10,10 +10,6 @@
   line-height: 150%;
 
   color: #fff;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .text-name {
@@ -163,17 +159,9 @@
   color: #a0aec0;
 }
 
-.chat1 {
-  margin-left: 2px;
-  position: absolute;
-  top: 65px;
-  bottom: 60.57%;
-  border-radius: 12px;
-}
-
 .chat {
   margin-left: 70px;
-  margin-top: 25px;
+  margin-top: 30px;
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
@@ -184,10 +172,158 @@
 
 .input-group {
   width: 300px;
-  height: 10px;
+  height: 15px;
   border-color: #ffffff;
   outline: none;
   margin-left: 70px;
   margin-right: 2px;
   border-radius: 8px;
+}
+
+#btn-reply {
+  font-size: 10px;
+  color: #4fd1c5;
+}
+
+.chat1 {
+  margin-left: 2px;
+  position: absolute;
+  top: 65px;
+  border-radius: 12px;
+}
+
+.chat2 {
+  margin-left: 2px;
+  position: absolute;
+  top: 145px;
+  border-radius: 12px;
+}
+
+.chat3 {
+  margin-left: 2px;
+  position: absolute;
+  top: 225px;
+  border-radius: 12px;
+}
+
+.chat4 {
+  margin-left: 2px;
+  position: absolute;
+  top: 305px;
+  border-radius: 12px;
+}
+
+.form-check-input {
+  color: linear-gradient(138.87deg, #3a416f 7.81%, #141727 95.71%);
+  border-radius: 97.7397px;
+  height: 15px;
+  width: 30px;
+}
+
+.form-check-label {
+  font-size: 12px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.card1 {
+  position: absolute;
+  width: 310px;
+  height: 281.9px;
+  left: 207px;
+  top: 860px;
+
+  background: #ffffff;
+  box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+  border-radius: 16px;
+}
+
+.card-img {
+  width: 310px;
+  height: 150px;
+  border-radius: 12px;
+}
+
+.card2 {
+  position: absolute;
+  width: 310px;
+  height: 281.9px;
+  left: 537px;
+  top: 860px;
+
+  background: #ffffff;
+  box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+  border-radius: 16px;
+}
+.card3 {
+  position: absolute;
+  width: 310px;
+  height: 281.9px;
+  left: 867px;
+  top: 860px;
+
+  background: #ffffff;
+  box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+  border-radius: 16px;
+}
+
+.card-new {
+  position: absolute;
+  width: 310px;
+  height: 281.9px;
+  left: 1197px;
+  top: 820px;
+
+  background: #ffffff;
+  box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+  border-radius: 16px;
+}
+
+.card-text-text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  color: #718096;
+  margin-top: 125px;
+}
+
+.title-pro {
+  margin-top: 789.5px;
+  margin-left: 227px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  color: #2d3748;
+}
+
+.sub-pro {
+  top: 789.5px;
+  margin-left: 227px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #a0aec0;
+}
+
+#btn-view {
+  border-color: #cb0c9f;
+  background-color: #ffffff;
+  color: #cb0c9f;
+  width: 100px;
+  height: 30px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 150%;
+  align-items: center;
 }
