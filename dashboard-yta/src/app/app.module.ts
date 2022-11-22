@@ -7,6 +7,7 @@ import { PricingComponent } from './components/pricing/pricing.component';
 import { TeamsComponent } from './components/teams/teams.component';
 import { AllProjectsComponent } from './components/all-projects/all-projects.component';
 import { OverviewComponent } from './components/overview/overview.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { OverviewComponent } from './components/overview/overview.component';
     PricingComponent,
     TeamsComponent,
     AllProjectsComponent,
-    OverviewComponent
+    OverviewComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
